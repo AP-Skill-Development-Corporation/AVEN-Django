@@ -1,0 +1,49 @@
+Day-01[05-09-2022]:
+==================
+	Good Morning to All...
+
+	Web Development using Django by using Python
+
+	def func(classparameters):
+		//stmnts
+		retrun return_value
+
+class Pr():
+	def hi():
+	   print("hello")
+a=pr()
+a.hi()
+def add():
+  retun 
+b=add()
+d={} => Dictionary
+s={2} => Set
+t=() => Tuple
+l=[] => List
+y="" => String
+
+for iterationvariablename in range(start,stop,step):
+	//stmnts
+
+[start:stop:step]
+
+range(5)
+0,1,2,3,4
+	
+range(2,10)
+2,3,4,5,6,7,8,9
+
+range(2,25,5)
+2,7,12,17,22
+
+
+
+Python Installation:
+====================
+	python.org
+
+
+
+
+
+
