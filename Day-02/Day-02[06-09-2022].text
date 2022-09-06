@@ -1,0 +1,95 @@
+Day-02[06-09-2022]:
+===================
+	Good Morning to All..
+
+	Python
+	======
+		https://python.org
+		Downloads
+		Windows
+			Pre release
+			stable release
+		cntrl+f => python 3.7.5
+			help
+			embedded
+			executeable
+			zip file
+		x86 executeable for 32 bit
+
+	Installation:
+	=============
+		- 2 options
+		- 2 checkboxes
+		2 options
+			install now => by default path
+			custom installation	=> user defined path location
+		2 checkboxes
+			All users permission
+			Add python 3.x path
+
+	Checking of python version
+	==========================
+		cmd
+		python -V
+
+	Pip:[To install third party packages]
+	=====================================
+		cmd
+		pythom -m pip install --upgrade pip
+		pip -V
+		pip install "packagename"
+
+	Django Installation:
+	====================
+		cmd
+		pip install django==3.0
+		pip install django [Updated Version of Django]
+	
+	Django Checking:
+	================
+		cmd
+		django-admin --version
+
+	Project Creation:
+	==================
+		cmd
+		django-admin startproject "projectname"
+		projectname [Project Folder]
+			projectname [Admin App]
+			manage.py [main service file]
+
+	Project Running:
+	================
+		manage.py => cmd
+		manage.py runserver
+				or
+		python manage.py runserver
+
+		http://127.0.0.1:8000
+		cntrl+Break => exit of server
+
+		we need to use the ip in browser to access the webpage.
+
+	Port Changing:
+	==============
+		cmd
+		manage.py runserver 1234
+
+		In Browser we need to access by using the  port number as 1234 entire ip will be
+			http://localhost:1234
+				or
+			http://127.0.0.1:1234
+
+	App Creation:
+	=============
+		cmd
+		manage.py startapp "AppName"
+
+	path('urlname',module.functioanname,name="urlname to be used in anchor tags")
+
+	Addition of 2 and 3 is: ?
+	
+	print("Addition of ",a,"and ",b,"is: ",a+b)
+	print("Addition of %d and %d is: %d"%(a,b,a+b))
+	print("Addition of {} and {} is: {}".format(a,b,a+b))
+	print(f"Addition of {a} and {b} is: {a+b}")
