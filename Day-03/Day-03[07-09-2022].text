@@ -1,0 +1,45 @@
+Day-03[07-09-2022]:
+===================
+	Good Morning to All...
+
+	Input:
+		1245
+	Output:
+		1254
+
+	Input:
+		12457
+	Output:
+		12475
+	without using strings or slicing use only loops
+
+	Code:
+	=====
+	c,r,t = 0,0,0
+	a=int(input())
+	d = a
+	while d!=0:
+	    d=d//10
+	    c=c+1
+	m = c//2
+	while m!=c:
+	    r = r*10+a%10
+	    a = a//10
+	    c = c-1
+	while r!=0:
+	    t = t*10+r%10
+	    r = r//10
+	while t!=0:
+	    a = a*10+t%10
+	    t = t//10
+	print(a)
+
+	Try to implement reverse function for above program to reduce the code complexity
+
+	Try to implement the same for odd number length 
+
+
+	render:
+	=======
+		render(self,'path of .html file',{dictionary})
+		
