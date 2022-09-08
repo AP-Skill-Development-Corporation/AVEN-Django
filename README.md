@@ -20,4 +20,9 @@ Django for AVEN-Narsipatnam
   - HttpResponse with html and css for it,response with javascript
   - Template folder Creation and accessing .html file
   - Template file access with a single parameter value
-  
+
+## Day-04(08-09-2022):
+  - html file design by using browser in temporary way
+  - Static File Handling with external css
+  - form methods overview and designing to it by using external css
+  - Interface between controller to template and then to controller to another template file
