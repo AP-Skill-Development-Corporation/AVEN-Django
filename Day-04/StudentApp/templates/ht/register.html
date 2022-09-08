@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/demo.css' %}">
+</head>
+<body>
+	<h3>Register</h3>
+	<form method="post">
+		{% csrf_token %}
+		<label>Username</label>
+		<input type="text" name="uname"><br/>
+		<label>Password</label>
+		<input type="password" name="upd"><br/>
+		<label>Email</label>
+		<input type="email" name="em"><br/>
+		<input type="reset" value="Reset">
+		<input type="submit" value="Create">
+	</form>
+</body>
+</html>

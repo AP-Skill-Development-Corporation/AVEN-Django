@@ -1,0 +1,20 @@
+Day-04[08-09-2022]:
+===================
+	Good Morning to All...
+
+	u = (4,'Ramesh',False)
+	h = ?
+
+	y = list(u)
+	[4,'Ramesh',False]
+	z= []
+	for i in y:
+		if i.isnumeric():
+			z.append(i)
+	z = [4]
+	v = int(input())
+	z.append(v)
+	z=[4,5]
+	u1=tuple(z)
+	u1=(4,5)
+	u1 = (5,4)
