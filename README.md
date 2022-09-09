@@ -26,3 +26,9 @@ Django for AVEN-Narsipatnam
   - Static File Handling with external css
   - form methods overview and designing to it by using external css
   - Interface between controller to template and then to controller to another template file
+
+## Day-05(09-09-2022):
+  - ORM Queries and CRUD Operations
+  - User Authnetication and Autherization, use of admin app
+  - Bootstrap4 tags for container,card and grid systems
+  - Template blocks for html files
