@@ -29,6 +29,14 @@ Django for AVEN-Narsipatnam
 
 ## Day-05(09-09-2022):
   - ORM Queries and CRUD Operations
-  - User Authnetication and Autherization, use of admin app
+  - User Authentication and Autherization, use of admin app
   - Bootstrap4 tags for container,card and grid systems
   - Template blocks for html files
+
+## Day-06(10-09-2022):
+  - Existing Model for creating a form
+  - Creation of forms.py file
+  - Widgets Concepts for models
+  - Login and Logout 
+  - Messages Generation
+  - Static File Handling
